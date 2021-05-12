@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '--prefix',
+1 verbose cli   '/usr/local/src/xterm.js',
+1 verbose cli   'start' ]
+2 info using npm@6.9.0
+3 info using node@v10.16.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle xterm@3.14.1~prestart: xterm@3.14.1
+6 info lifecycle xterm@3.14.1~start: xterm@3.14.1
+7 verbose lifecycle xterm@3.14.1~start: unsafe-perm in lifecycle true
+8 verbose lifecycle xterm@3.14.1~start: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/usr/local/src/xterm.js/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+9 verbose lifecycle xterm@3.14.1~start: CWD: /usr/local/src/xterm.js
+10 silly lifecycle xterm@3.14.1~start: Args: [ '-c', 'node terminalauth/start' ]
+11 silly lifecycle xterm@3.14.1~start: Returned: code: 1  signal: null
+12 info lifecycle xterm@3.14.1~start: Failed to exec start script
+13 verbose stack Error: xterm@3.14.1 start: `node terminalauth/start`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+13 verbose stack     at EventEmitter.emit (events.js:198:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:198:13)
+13 verbose stack     at maybeClose (internal/child_process.js:982:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid xterm@3.14.1
+15 verbose cwd /home/student
+16 verbose Linux 4.4.0-187-generic
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "--prefix" "/usr/local/src/xterm.js" "start"
+18 verbose node v10.16.0
+19 verbose npm  v6.9.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error xterm@3.14.1 start: `node terminalauth/start`
+22 error Exit status 1
+23 error Failed at the xterm@3.14.1 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

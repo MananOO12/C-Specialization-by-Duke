@@ -1,0 +1,23 @@
+Grading at Wed Sep  2 08:49:10 UTC 2020
+Checking code2.c for legal syntax
+Checking for int printTriangle (int size)
+Found on line 4, column 1 
+Checking for int main(void)
+Found on line 29, column 1 
+Trying to run the code..
+Your file matched the expected output
+Removing your main() and replacing it with our own to run more tests...
+Testing printTriangle(0) ... Correct
+Testing printTriangle(1) ... Correct
+Testing printTriangle(2) ... Correct
+Testing printTriangle(3) ... Correct
+Testing printTriangle(4) ... Correct
+Testing printTriangle(7) ... Correct
+Testing printTriangle(9) ... Correct
+Testing printTriangle(12) ... Correct
+Testing printTriangle(61) ... Correct
+Testing printTriangle(111) ... Correct
+Testing printTriangle(183) ... Correct
+Testing printTriangle(2451) ... Correct
+
+Overall Grade: A

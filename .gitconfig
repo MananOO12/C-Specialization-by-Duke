@@ -1,0 +1,5 @@
+[user]
+	email = nobody@nowhere.nul
+	name = Coursera Learner
+[push]
+	default = simple

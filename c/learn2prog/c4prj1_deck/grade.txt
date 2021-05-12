@@ -1,0 +1,31 @@
+Grading at Wed Sep  2 08:50:33 UTC 2020
+Compiling deck.c -> deck.o
+Compiling eval.c -> eval.o
+Compiling cards.c -> cards.o
+Linking eval.o, deck.o, cards.o, and our tester
+tester.o: In function `check_free_deck':
+c4p1-tester.c:(.text+0x30e): undefined reference to `free_deck'
+c4p1-tester.c:(.text+0x31f): undefined reference to `free_deck'
+tester.o: In function `check_get_match_count':
+c4p1-tester.c:(.text+0x9b6): undefined reference to `get_match_counts'
+tester.o: In function `check_build_remaining_deck':
+c4p1-tester.c:(.text+0xda9): undefined reference to `build_remaining_deck'
+tester.o: In function `check_make_deck_exclude':
+c4p1-tester.c:(.text+0x1149): undefined reference to `make_deck_exclude'
+c4p1-tester.c:(.text+0x1305): undefined reference to `free_deck'
+tester.o: In function `check_add_empty_card':
+c4p1-tester.c:(.text+0x148b): undefined reference to `add_empty_card'
+c4p1-tester.c:(.text+0x14e0): undefined reference to `add_empty_card'
+c4p1-tester.c:(.text+0x1781): undefined reference to `free_deck'
+c4p1-tester.c:(.text+0x1792): undefined reference to `free_deck'
+tester.o: In function `check_add_card_to':
+c4p1-tester.c:(.text+0x1a35): undefined reference to `add_card_to'
+c4p1-tester.c:(.text+0x1a5f): undefined reference to `add_card_to'
+c4p1-tester.c:(.text+0x1b71): undefined reference to `free_deck'
+c4p1-tester.c:(.text+0x1b82): undefined reference to `free_deck'
+eval.o: In function `evaluate_hand':
+eval.c:(.text+0xe51): undefined reference to `get_match_counts'
+collect2: error: ld returned 1 exit status
+Linking failed
+
+Overall Grade: F
